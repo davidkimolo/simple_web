@@ -2,7 +2,6 @@
     padding: 0px 0px;
     margin: 0px 0px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 body {
@@ -11,7 +10,9 @@ body {
 
 .header {
     background-color: cadetblue;
-    height: 55px;;
+    height: 55px;
+    text-transform: uppercase;
+
 }
 
 
@@ -86,6 +87,7 @@ body {
     font-size: 13px;
     font-weight: bolder;
     padding: 15px 0px;
+    text-transform: uppercase;
 }
 
 .footer_details {
@@ -104,4 +106,31 @@ body {
 
 .footer_details li a:hover{
     color: white;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(32, 32, 32);
+}
+
+.welcome_content {
+    padding: 5px 2px;
+    text-align: center;
+}
+
+.blockchain_description{
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.what_is_blockchain {
+    background-image: url(../images/what_is_blockchain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 12px 12px;
 }
